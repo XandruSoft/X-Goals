@@ -1,0 +1,4 @@
+services:
+#    xandrusoft_goal.example:
+#        class: Xandrusoft\GoalBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

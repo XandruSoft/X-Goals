@@ -1,0 +1,6 @@
+services:
+    xandrusoft_goal.admin.goal:
+        class: Xandrusoft\GoalBundle\Admin\GoalAdmin
+        arguments: [~, Xandrusoft\GoalBundle\Entity\Goal, SonataAdminBundle:CRUD]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: admin, label: Goal }

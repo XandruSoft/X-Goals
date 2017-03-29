@@ -1,0 +1,3 @@
+xandrusoft_goal_homepage:
+    path:     /
+    defaults: { _controller: XandrusoftGoalBundle:Default:index }
